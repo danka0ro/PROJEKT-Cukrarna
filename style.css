@@ -33,3 +33,172 @@ body {
 	margin: 0;
 }
 
+
+/*hlavicka*/
+
+.hlavicka {
+	max-width: 1100px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.logo {
+	width: 170px;
+	
+}
+
+.menu ul {
+	list-style: none;
+	
+}
+
+.menu li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 20px;
+	color: #242424;
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: 'Lora', serif;
+}
+
+a:hover,
+a:focus,
+a:active {
+	background-color: #f195b2;
+	color: white;
+
+}
+/*konec hlavicka*/
+
+
+/*hero sekce*/
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+}
+
+h1 {
+	font-size: 52px;
+	color: white;
+	line-height: 1.25;
+	font-family: 'Playfair Display', serif;
+	
+}
+
+.hero-text {
+	font-size: 24px;
+	font-style: italic;
+	color: white;
+	padding-right: 40%;
+	line-height: 1.5;
+	font-family: 'Lora', serif;
+}
+
+	/*--> vycentrování obsahu sekcí na stránce*/
+.obsah-sekce {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 80px 0;
+}
+/*konec hero sekce*/
+
+
+
+/*sekce Vítejte v naší cukrárně a Náš přístup k pečení*/
+	/*--> třída .dva-sloupce ve 2 sekcích*/
+.dva-sloupce {
+	display: flex;
+}
+
+.sloupec {
+	margin: 15px;
+}
+
+.sloupec img {
+	border-radius: 5px;
+}
+
+h2 {
+	font-size: 36px;
+	color: #3e606b;
+	line-height: 1.25;
+	font-family: 'Playfair Display', serif;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: 'Lora', serif;
+}
+
+.tlacitko {
+	background-color: #f195b2;
+	padding: 15px 40px;
+	border-radius: 30px;
+	color: white;
+}
+
+.tlacitko:hover,
+.tlacitko:focus,
+.tlacitko:active {
+	background-color: #d2567d;
+}
+/*konec sekce Vítejte v naší cukrárně*/
+
+
+/*sekce Dnešní nabídka*/
+.sekce-seda {
+	background-color: #f0f0f0;
+}
+
+.nabidka {
+	display: flex;
+}
+
+.produkt {
+	background-color: white;
+	border-radius: 5px;
+	margin: 15px;
+	flex-basis: 10%;
+	
+}
+
+.produkt-obsah {
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.produkt img {
+	border-radius: 5px 5px 0 0;
+	width: 250px;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 1.25;
+	color: #3e606b;
+	font-family: 'Playfair Display', serif;
+}
+/* konec sekce Dnešní nabídka*/
+
+
+/*patička*/
+.paticka {
+	margin: 0 auto;
+	padding: 30px 0;
+	text-align: center;
+	font-size: 18px;
+	background-color: #303339;
+	color: white;
+	font-family: 'Lora', serif;
+}
+/*patička*/
